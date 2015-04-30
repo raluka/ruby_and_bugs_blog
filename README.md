@@ -1,24 +1,27 @@
+# Ruby on Rails Tutorial: "hello, world - here I come!"
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+This is the first application for the
+[*Ruby on Rails Tutorial*](http://www.railstutorial.org/)
+by [Michael Hartl](http://www.michaelhartl.com/).
 
+Also, this nice tutorial will turn out into a wonderful blog.
 
-Welcome to your Rails project on Cloud9 IDE!
+Features
 
-To get started, just do the following:
-
-1. Run the project with the "Run Project" button in the menu bar on top of the IDE.
-2. Preview your new app by clicking on the URL that appears in the Run panel below (https://ruby-and-bugs-blog-raluka.c9.io/).
-
-Happy coding!
-The Cloud9 IDE team
+1. blog post (show, read, create, edit, delete)
+2. blog comment CRUD opperations
+3. search and paginate
+4. authentication
+5. notifications and newsletter for subscribers
+6. friendly url
 
 
-## Support & Documentation
+User Stories
 
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+1. As a user, I can post on blog.
+2. As a user, I can edit or delete a post.
+3. As a user, I can see other posts.
+4. As a user, I can comment to a post.
+5. As a user, I can edit or delete my own comment.
+6. As a user, I can search for a specific post.
+7. As a user, I see "x" posts per page.
