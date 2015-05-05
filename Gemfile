@@ -3,10 +3,10 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
-# Use sqlite3 as the database for Active Record
-# gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
+# Use sqlite3 as the database for Active Record
+gem 'sqlite3', group: :development
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
@@ -30,7 +30,7 @@ group :development, :test do
   gem 'web-console', '~> 2.0.0.beta2'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
-  # etter Errors replaces the standard Rails error page with a much better and more useful error page.
+  # Better Errors replaces the standard Rails error page with a much better and more useful error page.
   gem 'better_errors'
   # Recommended for use only in debugging situations.
   gem 'binding_of_caller'

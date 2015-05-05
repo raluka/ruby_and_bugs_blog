@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
  
-  root 'welcome#hello'
+  root 'welcome#goodbye'
+
   
 end
