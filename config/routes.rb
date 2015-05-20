@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
 
- 
-  root 'welcome#hello'
-  get 'welcome/hello'
-  get 'welcome/goodbye'
+  resources :articles do
+    resources :comments
+  end
+
+  root 'welcome#index'
+
   
 end
